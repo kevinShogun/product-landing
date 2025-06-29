@@ -82,8 +82,8 @@ soundwave-pro/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/soundwave-pro-landing.git
-   cd soundwave-pro-landing
+   git clone https://github.com/kevinShogun/product-landing.git
+   cd product-landing
    ```
 
 2. **Install dependencies**
