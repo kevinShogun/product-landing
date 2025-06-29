@@ -52,7 +52,7 @@ SoundWave Pro is a modern, responsive landing page showcasing premium wireless h
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 soundwave-pro/
 ├── app/
 │   ├── globals.css           # Global styles and Tailwind imports
@@ -70,7 +70,7 @@ soundwave-pro/
 ├── tailwind.config.ts       # Tailwind configuration
 ├── next.config.mjs          # Next.js configuration
 └── package.json             # Dependencies and scripts
-\`\`\`
+```
 
 ## 🚀 Getting Started
 
