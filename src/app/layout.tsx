@@ -34,14 +34,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://soundwavepro.com"),
+  metadataBase: new URL("https://product-landing-gold.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://soundwavepro.com",
+    url: "https://product-landing-gold.vercel.app/",
     title: "SoundWave Pro - Premium Wireless Headphones",
     description:
       "Experience music like never before with SoundWave Pro premium wireless headphones. 30-hour battery, Bluetooth 5.0, and active noise cancellation technology.",
