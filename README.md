@@ -64,8 +64,7 @@ soundwave-pro/
 │   ├── twitter-image.tsx    # Custom Twitter card generation
 │   ├── icon.tsx             # Favicon generation
 │   └── apple-icon.tsx       # Apple touch icon generation
-├── components/
-│   └── ui/                  # Reusable UI components
+├── components/              # Components
 ├── public/                  # Static assets
 ├── tailwind.config.ts       # Tailwind configuration
 ├── next.config.mjs          # Next.js configuration
@@ -82,28 +81,28 @@ soundwave-pro/
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/soundwave-pro-landing.git
    cd soundwave-pro-landing
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
    # or
    pnpm install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
    # or
    pnpm dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
@@ -123,7 +122,7 @@ The landing page is fully responsive and optimized for:
 
 The color scheme can be easily customized in \`tailwind.config.ts\`:
 
-\`\`\`typescript
+```typescript
 theme: {
   extend: {
     colors: {
@@ -133,25 +132,25 @@ theme: {
     }
   }
 }
-\`\`\`
+```
 
 ### Typography
 
 Fonts are configured in \`app/layout.tsx\` and can be changed:
 
-\`\`\`typescript
+```typescript
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800'],
   variable: '--font-poppins',
 })
-\`\`\`
+```
 
 ### Content
 
 Update product information in \`app/page.tsx\`:
 
-\`\`\`typescript
+```typescript
 const features = [
   {
     title: "Your Feature",
@@ -159,7 +158,7 @@ const features = [
     icon: <YourIcon />
   }
 ]
-\`\`\`
+```
 
 ## 🔧 SEO Configuration
 
